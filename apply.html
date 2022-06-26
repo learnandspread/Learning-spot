@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="yes2.css">
+    <title>Admission</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap" rel="stylesheet">
+</head>
+<body>
+    <img class="logo" src="Learning spot logo.png" alt="Learning spot">
+    <img class="booklogo" src="book logo.png" alt="Learning Spot Coaching Center">
+    <form class="myform" action="mailto:learningspotcoachingcentre@gmail.com" method="post" enctype="text/plain">
+        <label>Name: </label><br>
+        <input type="text" name="Name:" id="Name" required><br>
+        <label>Father Name: </label><br>
+        <input type="text" name="FatherName:" id="FName" required><br>
+        <label>Date Of Birth:</label><br>
+        <input type="date" name="DOB:" id="dob" required><br>
+        <label>Religion:</label><br>
+        <select name="Religion:" id="religion" required><br>
+            <option value="Islam">Islam</option>
+            <option value="Cristianity">cristianity</option>
+            <option value="Hinduism">Hinduism</option>
+            <option value="Other">Other</option>
+        </select><br>
+        <label>Currently in Class: </label><br>
+        <input type="number" id="CC" name="CurrentClass:" min="1" max="12" required><br>
+        <label for="">Father's occupation:</label><br>
+        <input type="text" name="father'soccupation:" id="" required><br>
+        <label for="">Mother's occupation:</label><br>
+        <input type="text" name="Mother'soccupation:" id="" required><br>
+        <label for="">Permanent Address:</label><br>
+        <input type="text" name="PermanentAddress" id="" required><br>
+        <label for="">Email Address:</label><br>
+        <input type="email" name="email:" id="email" required><br>
+        <label for="phone"> Phone number(****-*******):</label><br>
+        <input type="tel" id="phoneNumber" name="phonenumber" pattern="[0-9]{4}-[0-9]{7}" required><br>
+        <label for="">Current School Name:</label><br>
+        <input type="text" name="CurrentSchoolName:" id="" required><br>
+        <label>Your Category: </label><br>
+        <select name="Category" id="Category" required><br>
+            <option value="Boarding Preparation">Boarding Preparation</option>
+            <option value="Regular Student">Regular Student</option>
+        </select><br>
+        <input type="hidden" name="" id="">
+        <input class="btn" type="submit" id="submit">
+        <input class=btn type="reset" id="btn2">
+        <h1 class="main_h">Learning Spot</h1>
+        <h3 class="bottom_h">Coaching Center</h3>
+        <h4 class="form">Admission Form</h4>
+        <a class="apply" href="" target="_blank">Admission</a>
+        <a class="home" href="main.html">Home</a>
+
+    </form>
+</body>
+</html>
